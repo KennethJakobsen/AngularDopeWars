@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-route.js"></script>
+    <script src="https://code.angularjs.org/1.2.5/i18n/angular-locale_da-dk.js"></script>
+    <script src="~/Scripts/app.js"></script>
+    <script src="~/Scripts/Controllers/DopeController.js"></script>
+    <script src="~/Scripts/Controllers/TradeController.js"></script>
+    <script src="~/Scripts/Controllers/JacketController.js"></script>
+    <script src="~/Scripts/Controllers/LocationController.js"></script>
+    <script src="~/Scripts/Controllers/TimeController.js"></script>
+    <script src="~/Scripts/Services/DopeService.js"></script>
+    <script src="~/Scripts/Services/ConfigurationService.js"></script>
+    <script src="~/Scripts/Services/TradeService.js"></script>
+    <script src="~/Scripts/Directives/DopeDirective.js"></script>
+    <script src="~/Scripts/Directives/TradeDirective.js"></script>
+    <script src="~/Scripts/Directives/JacketDirective.js"></script>
+    <script src="~/Scripts/Directives/LocationDirective.js"></script>
+    <script src="~/Scripts/Directives/TimeDirective.js"></script>
+    <script src="~/Scripts/Services/JacketService.js"></script>
+    <script src="~/Scripts/Services/TravelService.js"></script>
+    <script src="~/Scripts/Services/TimeService.js"></script>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/Scripts/bootstrapper.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<div>Balance: ${{money}}</div>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Sum</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="d in dope" ng-click="sell(d)">
+            <td>{{d.name}}</td>
+            <td>{{d.quantity}}</td>
+            <td>${{d.price}}</td>
+            <td>${{d.price * d.quantity}}</td>
+        </tr>
+    </tbody>
+</table>
